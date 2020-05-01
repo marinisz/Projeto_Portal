@@ -1,0 +1,128 @@
+.logo{
+    max-width: 300px;
+    padding: 20px;
+}
+.topo{
+    text-align: center;
+    align-content: space-around;
+}
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-item h1,h2{
+    color:lightseagreen;
+}
+#img_noticia{
+    padding-top: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+.noticinha{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.noticia_texto{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+h6{
+    text-align: justify;
+}
+.noticiapequena{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding-bottom:20px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.noticiapequena img{
+    max-width: 100%;
+}
+.noticia_lado img{
+    max-width: 100%;
+    padding: 0px;
+    margin:0px;
+}
+.footer{
+    text-align: center;
+    background-color: lightgrey;
+}
+.info{
+    padding:10px;
+}
+.little img{
+    max-width: 100%;
+}
+.noticinha img{
+    max-width: 100%;
+}
+.noticia_grande{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.little{
+    text-align: justify;
+}
+.noticia_texto p{
+    font-size: 20px;
+}
+.anuncio img{
+    max-width: 100%;
+}
+.anuncio{
+    padding:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.table{
+    padding: 20px;
+}
+.maos{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.maos img{
+    max-width: 100%;
+}
+.lista{
+    padding:20px;
+    text-align: justify;
+}
+.container{
+    background-color: lightblue;
+}
+nav{
+    padding: 0px;
+    color: black;
+    margin: 0px;
+}
+a{
+    color: black;
+}
+@media screen and (min-width:300px) and (max-width:600px){
+    footer table{
+        display: none;
+    }
+}
+@media screen and (min-width:575px) and (max-width:780px){
+    .row .little{
+        display: none;
+    }
+    .row .anuncio{
+        display: none;
+    }
+}
